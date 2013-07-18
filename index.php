@@ -249,8 +249,8 @@ $app_name = idx($app_info, 'name', '');
     </header>
 
     <section id="get-started">
-      <p>Welcome to your Facebook app, running on <span>heroku</span>!</p>
-      <a href="https://devcenter.heroku.com/articles/facebook" target="_top" class="button">Learn How to Edit This App</a>
+      <p>Get a degree in <span>only 2 years</span>!</p>
+      <a href="https://devcenter.heroku.com/articles/facebook" target="_top" class="button">book interview</a>
     </section>
 
     <?php
@@ -354,7 +354,7 @@ $app_name = idx($app_info, 'name', '');
     ?>
 
     <section id="guides" class="clearfix">
-      <h1>Learn More About Heroku &amp; Facebook Apps</h1>
+      <h1>Learn More About Concept &amp; York University</h1>
       <ul>
         <li>
           <a href="https://www.heroku.com/?utm_source=facebook&utm_medium=app&utm_campaign=fb_integration" target="_top" class="icon heroku">Heroku</a>
