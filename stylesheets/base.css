@@ -6,7 +6,7 @@
 /* =global elements
 --------------------------------------------- */
 body {
-  color: #999;
+  color: #000;
   font: 14px/1.5em "Lucida Grande", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   width: 720px;
@@ -24,7 +24,7 @@ a:hover, a:active {
 }
 
 h1 {
-  color: #656565;
+  color: #000;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
   font-weight: normal;
