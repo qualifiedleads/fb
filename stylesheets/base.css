@@ -357,3 +357,32 @@ header .tagline {
 .clearfix {
   zoom: 1;
 }
+
+
+
+
+div.form-row {
+  width: 100%;
+}
+
+div.form-row label {
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  border: 1px solid #DEDEDE;
+  outline: none;
+  font-size: 13px;
+  margin-bottom: 18px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: orange;
+}
