@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html xmlns:fb="http://ogp.me/ns/fb#" class="no-js" itemscope="" itemtype="http://schema.org/Product" dir="rtl" lang="he"> 
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
     <title>Concept ac LP</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
@@ -12,7 +10,7 @@
     <!-- 'https://developers.facebook.com/docs/opengraph/' -->
     <meta property="og:title" content="Concept ac LP" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://apps.facebook.com/conceptac_lp/" />
+    <meta property="og:url" content="https://limitless-fortress-6366.herokuapp.com/" />
     <meta property="og:image" content="https://limitless-fortress-6366.herokuapp.com/logo.png" />
     <meta property="og:site_name" content="Concept ac LP" />
     <meta property="og:description" content="My first app" />
@@ -26,49 +24,6 @@
     <![endif]-->
   </head>
   <body>
-  <div class="maincontent"><div class="row">
-    <div class="content">
-    	<div class="header-top">
-        <!-- Left Side-->
-        <section class="leftsidecol">
-        	<div class="ten columns">
-            <div class="leftside">
-            <!--Post-->
-            <div class="post">
-
-<h1> להתקבל בכייף ללימודי עיצוב באקדמיה</h1>
-<!-- Contact Form -->
-    <?php if (isset($_GET['contactErr']) && (int)$_GET['contactErr'] === 1): ?>
-      <p style="color:red;font-weight:bold">Failed to send email, check your input and try again</p>
-    <?php endif; ?>
-
-    <form method="post" action="/mail.php">
-      <div class="form-row">
-        <label>שם:</label>
-        <input type="text" name="name" placeholder="John Smith"/>
-      </div>
-      <div class="form-row">
-        <label>טלפון:</label>
-        <input type="tel" name="phone" pattern="^[0-9]+[\- ]*[0-9]+$" placeholder="+00 12345678"/>
-      </div>
-      <div class="form-row">
-        <label>דואייל:</label>
-        <input type="email" name="email" placeholder="j.smith@example.com"/>
-      </div>
-      <div class="form-row">
-      <fieldset>
-        <legend>מעוניין ללמוד ב:</legend>
-        <label>Details</label>
-        <select name="colour">
-            <option value='בצלאל'>בצלאל</option>
-            <option value='שנקר'>שנקר</option>
-            <option value='HIT'>HIT</option>
-            <option value='טכניון'>טכניון</option>
-            <option value='אונ תא'>אונ' ת"א</option>
-        </select>
-      </div>
-      <input type="submit" value="לחץ לקבלת מידע"/>
-    </form>
 
     <h1>התקשרו כעת:<a href="tel:03-771-3026" onClick="_gaq.push(['_trackPageview', '/vpv/mehinahtml/header/ClickToCall']);" > 03-771-3026</a></h1>
 
@@ -96,6 +51,36 @@
       <p>הטבה מיוחדת לנרשמים מעמוד זה.</p>
     </div>
 
+    <!-- Contact Form -->
+    <p>להתחלת קריירה בעיצוב ! אנא מלאו את הפרטים</p>
     
+    <?php if (isset($_GET['contactErr']) && (int)$_GET['contactErr'] === 1): ?>
+      <p style="color:red;font-weight:bold">Failed to send email, check your input and try again</p>
+    <?php endif; ?>
+
+    <form method="post" action="/mail.php">
+      <div class="form-row">
+        <label>שם:</label>
+        <input type="text" name="name" placeholder="John Smith"/>
+      </div>
+      <div class="form-row">
+        <label>טלפון:</label>
+        <input type="text" name="phone" placeholder="+00 12345678"/>
+      </div>
+      <div class="form-row">
+        <label>דואייל:</label>
+        <input type="email" name="email" placeholder="j.smith@example.com"/>
+      </div>
+      <div class="form-row">
+        <label>Details</label>
+        <select name="colour">
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select>
+      </div>
+      <input type="submit" value="לחץ לקבלת מידע"/>
+    </form>
+
   </body>
 </html>
