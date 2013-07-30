@@ -25,9 +25,9 @@
     <?php endif; ?>
 
     <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6008816727785&amp;value=0&amp;currency=USD" /></noscript>
-    <link rel="stylesheet" href="stylesheets/base.css" media="Screen" type="text/css" />
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" type="text/css" />
-
+    <link rel="stylesheet" href="https://limitless-fortress-6366.herokuapp.com/stylesheets/reset.css" media="Screen" type="text/css" />
+    <link rel="stylesheet" href="https://limitless-fortress-6366.herokuapp.com/stylesheets/base.css" media="Screen" type="text/css" />
+    <link rel="stylesheet" href="https://limitless-fortress-6366.herokuapp.com/stylesheets/mobile.css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" type="text/css" />
     <!--[if IEMobile]>
     <link rel="stylesheet" href="mobile.css" media="screen" type="text/css"  />
     <![endif]-->
