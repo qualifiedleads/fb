@@ -73,7 +73,11 @@
       </div>
       <div class="form-row">
         <label>Details</label>
-        <textarea name="details" placeholder="Add your message here"></textarea>
+        <select name="colour">
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select>
       </div>
       <input type="submit" value="לחץ לקבלת מידע"/>
     </form>
