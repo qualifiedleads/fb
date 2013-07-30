@@ -64,7 +64,7 @@
 
         <footer id="footer">
             <p><strong>קונספט המכללה לעיצוב</strong> רח’ שפע טל 10 <strong>(200 מטר מעזריאלי)</strong> חניה חינם ללא הגבלה  &nbsp <br>
-            <span><strong><a href="tel:03-771-3026" onClick="_gaq.push(['_trackPageview', '/vpv/mehinahtml/footer/ClickToCall']);" >טלפון:03-761-3027</a></strong></span>
+            <span><strong><a href="tel:03-771-3026" >טלפון:03-761-3027</a></strong></span>
         </footer>
         
     </body>
