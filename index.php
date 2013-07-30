@@ -39,6 +39,7 @@
 
 <h1> להתקבל בכייף ללימודי עיצוב באקדמיה</h1>
 <!-- Contact Form -->
+<div class="contactform">
     <?php if (isset($_GET['contactErr']) && (int)$_GET['contactErr'] === 1): ?>
       <p style="color:red;font-weight:bold">Failed to send email, check your input and try again</p>
     <?php endif; ?>
@@ -67,11 +68,11 @@
             <option value='אונ תא'>אונ' ת"א</option>
         </select>
       </div>
-      <input type="submit" value="לחץ לקבלת מידע"/>
+      <input type="submit" value="שלח"/>
     </form>
       <!--Post-->
         <div class="post">
-          <img src="http://lnd.commondatastorage.googleapis.com/bez_girl.jpg alt="image">
+          <img src="http://lnd.commondatastorage.googleapis.com/bez_girl.jpg" alt="image">
 <h2>  <strong> המכינה המומלצת להכנת תיקי עבודות!</strong ><br> </h2>
 <h3>   ברוכים הבאים למכינה היחידה בישראל המתחייבת לקבלה שלך לאקדמיה ללימודי עיצוב! </h3>
                    הלימודים במכינה מהנים, חוויתיים ומכינים אותך ליום הגדול :  
