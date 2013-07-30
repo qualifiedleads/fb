@@ -18,7 +18,8 @@
     <meta property="og:description" content="‫‎בצלאל" />
     <meta property="fb:app_id" content="621963677837780" />
 
-    <link rel="stylesheet" href="https://limitless-fortress-6366.herokuapp.com/stylesheets/screen.css" media="Screen" type="text/css" />
+    <link rel="stylesheet" href="https://limitless-fortress-6366.herokuapp.com/stylesheets/reset.css" media="Screen" type="text/css" />
+    <link rel="stylesheet" href="https://limitless-fortress-6366.herokuapp.com/stylesheets/base.css" media="Screen" type="text/css" />
     <link rel="stylesheet" href="https://limitless-fortress-6366.herokuapp.com/stylesheets/mobile.css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" type="text/css" />
 
     <!--[if IEMobile]>
