@@ -19,7 +19,7 @@
         // Send the email
 //        mail('info@concept-academy.co.il', $subject, $body, $from);
 //        mail('leadsbackup@conce.pt',       $subject, $body, $from);
-          mail('web@concept.ac',          $subject, $body, $from);
+          mail('web@concept-academy.co.il',          $subject, $body, $from);
 
         $contactMailSent = true;
         include 'success.php';
