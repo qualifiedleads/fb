@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
-    <title>Concept ac LP</title>
+    <title>‫‎בצלאל</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
     <meta charset="utf-8" />
@@ -14,8 +14,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://apps.facebook.com/conceptac_lp/" />
     <meta property="og:image" content="https://limitless-fortress-6366.herokuapp.com/logo.png" />
-    <meta property="og:site_name" content="Concept ac LP" />
-    <meta property="og:description" content="My first app" />
+    <meta property="og:site_name" content="‫‎בצלאל" />
+    <meta property="og:description" content="‫‎בצלאל" />
     <meta property="fb:app_id" content="621963677837780" />
 
     <link rel="stylesheet" href="https://limitless-fortress-6366.herokuapp.com/stylesheets/screen.css" media="Screen" type="text/css" />
