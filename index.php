@@ -71,7 +71,7 @@
     </form>
       <!--Post-->
         <div class="post">
-          <img src="http://lnd.commondatastorage.googleapis.com/mehina.jpg" alt="image">
+          <img src="http://lnd.commondatastorage.googleapis.com/bez_girl.jpg alt="image">
 <h2>  <strong> המכינה המומלצת להכנת תיקי עבודות!</strong ><br> </h2>
 <h3>   ברוכים הבאים למכינה היחידה בישראל המתחייבת לקבלה שלך לאקדמיה ללימודי עיצוב! </h3>
                    הלימודים במכינה מהנים, חוויתיים ומכינים אותך ליום הגדול :  
