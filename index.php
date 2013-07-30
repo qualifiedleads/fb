@@ -41,8 +41,8 @@
     <?php if (isset($_GET['contactErr']) && (int)$_GET['contactErr'] === 1): ?>
       <p style="color:red;font-weight:bold">Failed to send email, check your input and try again</p>
     <?php endif; ?>
-
-    <form method="post" action="/mail.php">
+<span class="header"><strong>רוצים להתקבל בכייף?</strong><br></span>
+    <form name="contact_form" method="post" action="/mail.php">
       <div class="form-row">
         <label>שם:</label>
         <input type="text" name="name" placeholder="John Smith"/>
@@ -59,7 +59,7 @@
       <fieldset>
         <legend>מעוניין ללמוד ב:</legend>
         <label>Details</label>
-        <select name="colour">
+        <select name="uni">
             <option value='בצלאל'>בצלאל</option>
             <option value='שנקר'>שנקר</option>
             <option value='HIT'>HIT</option>

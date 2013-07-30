@@ -4,16 +4,16 @@
     $name    = isset($_POST['name']) ? $_POST['name'] : ''; 
     $phone   = $_POST['phone']; 
     $email   = $_POST['email'];
-    $colour  = $_POST['colour'];
+    $uni  = $_POST['uni'];
 
     // Validate the users input (No fields left empty)
-    if (empty($name) || empty($phone) || empty($email) || empty($colour)) {
+    if (empty($name) || empty($phone) || empty($email) || empty($uni)) {
         header('Location: /index.php?contactErr=1');
     } else {
         // Got here? Then user submitted data for each required field
         // Compose the email to send
         $subject = 'פנייה מדף נחיתה מכללת קונספט';
-        $body    = sprintf('שם: %s נייד: %s דוא"ל:  %s פרטים: %s', $name, $phone, $email, $colour);
+        $body    = sprintf('שם: %s נייד: %s דוא"ל:  %s פרטים: %s', $name, $phone, $email, $uni);
         $from    = 'From:' . $email;
 
         // Send the email
