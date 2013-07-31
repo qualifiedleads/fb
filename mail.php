@@ -24,3 +24,4 @@
         $contactMailSent = true;
         include 'success.php';
     }
+?>
