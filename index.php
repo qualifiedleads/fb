@@ -3,31 +3,29 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
-    <title>‫‎בצלאל</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
-    <meta charset="utf-8" />
-
-    <!-- Facebook Graph Tags -->
-    <!-- 'https://developers.facebook.com/docs/opengraph/' -->
-    <meta property="og:title" content="Concept ac LP" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://apps.facebook.com/conceptac_lp/" />
-    <meta property="og:image" content="https://limitless-fortress-6366.herokuapp.com/logo.png" />
-    <meta property="og:site_name" content="‫‎בצלאל" />
-    <meta property="og:description" content="‫‎בצלאל" />
-    <meta property="fb:app_id" content="621963677837780" />
-
-    <link rel="stylesheet" href="https://limitless-fortress-6366.herokuapp.com/stylesheets/reset.css" media="Screen" type="text/css" />
-    <link rel="stylesheet" href="https://limitless-fortress-6366.herokuapp.com/stylesheets/base.css" media="Screen" type="text/css" />
-    <link rel="stylesheet" href="https://limitless-fortress-6366.herokuapp.com/stylesheets/mobile.css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" type="text/css" />
+    <title>Concept</title>
+    <link rel="stylesheet" href="stylesheets/base.css" media="Screen" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" type="text/css" />
 
     <!--[if IEMobile]>
     <link rel="stylesheet" href="mobile.css" media="screen" type="text/css"  />
     <![endif]-->
-  </head>
+
+    <!-- These are Open Graph tags.  They add meta data to your  -->
+    <!-- site that facebook uses when your content is shared     -->
+    <!-- over facebook.  You should fill these tags in with      -->
+    <!-- your data.  To learn more about Open Graph, visit       -->
+    <!-- 'https://developers.facebook.com/docs/opengraph/'       -->
+    <meta property="og:title" content="Concept ac LP" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://apps.facebook.com/conceptac_lp/" />
+    <meta property="og:image" content="https://limitless-fortress-6366.herokuapp.com/logo.png" />
+    <meta property="og:site_name" content="Concept ac LP" />
+    <meta property="og:description" content="My first app" />
+    <meta property="fb:app_id" content="621963677837780" />
+</head>
   <body>
-  <div class="maincontent"><div class="row">
+    <div class="maincontent"><div class="row">
     <div class="content">
     	<div class="header-top">
         <!-- Left Side-->
@@ -38,9 +36,9 @@
             <div class="post">
 
 <h1> להתקבל בכייף ללימודי עיצוב באקדמיה</h1>
-<!-- Contact Form -->
+<!--Contactform-->
 <div class="contactform">
-    <?php if (isset($_GET['contactErr']) && (int)$_GET['contactErr'] === 1): ?>
+<?php if (isset($_GET['contactErr']) && (int)$_GET['contactErr'] === 1): ?>
       <p style="color:red;font-weight:bold">Failed to send email, check your input and try again</p>
     <?php endif; ?>
 <span class="header"><strong>רוצים להתקבל בכייף?</strong><br></span>
@@ -70,9 +68,11 @@
       </div>
       <input type="submit" value="שלח"/>
     </form>
-      <!--Post-->
-        <div class="post">
-          <img src="http://lnd.commondatastorage.googleapis.com/bez_girl.jpg" alt="image">
+
+</div>
+<!--End Contactform-->
+            <img src="http://lnd.commondatastorage.googleapis.com/bez_cert.jpg" alt="image">
+            
 <h2>  <strong> המכינה המומלצת להכנת תיקי עבודות!</strong ><br> </h2>
 <h3>   ברוכים הבאים למכינה היחידה בישראל המתחייבת לקבלה שלך לאקדמיה ללימודי עיצוב! </h3>
                    הלימודים במכינה מהנים, חוויתיים ומכינים אותך ליום הגדול :  
@@ -81,30 +81,22 @@
                  <li>מילגה של 1000 ש' לפונים מעמוד זה!</li>
                 <li>אנו מתחייבים לקבלתכם לשנקר, בצלאל, HIT, אונ' ת"א, הטכניון, ויצ"ו חיפה או מכללה למנהל</li>
                 <li>המכינה המעשית ביותר, פחות תאוריות יותר התנסות חוויתית! </li>
-                <li>אצלנו משלמים רק פעם אחת עד שמתקבלים!<br></li>
+                <li>אצלנו משלמים רק פעם אחת עד שמתקבלים!<br>
+                </li>
                 <li>שיטה ייחודית ללימודי רישום, גם מי שלא יודע להחזיק עפרון, יהיה מופתע מהתוצאות!!!</li>
                 <li>מפגשים אישיים אחד על אחד להכנת תיק העבודות</li>
                 <li>אבחון והתאמה מקצועית אישית </li>
                 <li><strong>מוכר למענק חיילים משוחררים</strong></li>
               </ul>
               </p>
-        </div>
-      </div>
-     </div>
-	</div>
-</section>
-    <!-- Facebook retargeting Tags -->
-<script type="text/javascript">
-  (function() {
-    window._pa = window._pa || {};
-    // _pa.orderId = "myCustomer@email.com"; // OPTIONAL: attach user email or order ID to conversions
-    // _pa.revenue = "19.99"; // OPTIONAL: attach dynamic purchase values to conversions
-    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/51d26c34a6abe33765000024.js";
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
-  })();
-</script>
-    <!-- End of Facebook retargeting Tags -->
-    
-  </body>
+
+        		</div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+        	</div>
+        </section>
+      </body>
 </html>
