@@ -132,19 +132,7 @@ font-size: 0.9em;
 select {
 font-size: 1.9em;
 width: 90%;
-}
 
-select.icon-menu option {
-background-repeat:no-repeat;
-background-position:bottom left;
-padding-left:30px;
-}
-select#uni option[value="בצלאל"] {
-background-image:url(images/bez-icon.png);
-}
-
-legend {
-font-size: 1.2em;
 }
 
 /* ------------------------------------------ */
