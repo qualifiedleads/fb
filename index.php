@@ -4,24 +4,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
     <title>Concept</title>
+    <link rel="stylesheet" href="stylesheets/reset.css" media="Screen" type="text/css" />
     <link rel="stylesheet" href="stylesheets/base.css" media="Screen" type="text/css" />
     <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" type="text/css" />
 
     <!--[if IEMobile]>
     <link rel="stylesheet" href="mobile.css" media="screen" type="text/css"  />
     <![endif]-->
-
-    <!-- These are Open Graph tags.  They add meta data to your  -->
-    <!-- site that facebook uses when your content is shared     -->
-    <!-- over facebook.  You should fill these tags in with      -->
-    <!-- your data.  To learn more about Open Graph, visit       -->
-    <!-- 'https://developers.facebook.com/docs/opengraph/'       -->
     <meta property="og:title" content="Concept ac LP" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://apps.facebook.com/conceptac_lp/" />
     <meta property="og:image" content="https://limitless-fortress-6366.herokuapp.com/logo.png" />
-    <meta property="og:site_name" content="Concept ac LP" />
-    <meta property="og:description" content="My first app" />
+    <meta property="og:site_name" content= "בצלאל"/>
+    <meta property="og:description" content="בצלאל" />
     <meta property="fb:app_id" content="621963677837780" />
 </head>
   <body>
@@ -41,24 +36,11 @@
 <?php if (isset($_GET['contactErr']) && (int)$_GET['contactErr'] === 1): ?>
       <p style="color:red;font-weight:bold">Failed to send email, check your input and try again</p>
     <?php endif; ?>
-<span class="header"><strong>רוצים להתקבל בכייף?</strong><br></span>
+<span class="header"><h3>מעוניין ללמוד ב:</h3></span>
     <form name="contact_form" method="post" action="/mail.php">
       <div class="form-row">
-        <label>שם:</label>
-        <input type="text" name="name" placeholder="John Smith"/>
-      </div>
-      <div class="form-row">
-        <label>טלפון:</label>
-        <input type="tel" name="phone" pattern="^[0-9]+[\- ]*[0-9]+$" placeholder="+00 12345678"/>
-      </div>
-      <div class="form-row">
-        <label>דואייל:</label>
-        <input type="email" name="email" placeholder="j.smith@example.com"/>
-      </div>
-      <div class="form-row">
       <fieldset>
-        <legend>מעוניין ללמוד ב:</legend>
-        <select name="uni">
+        <select name="uni" id=uni class=icon-menu>
             <option value='בצלאל'>בצלאל</option>
             <option value='שנקר'>שנקר</option>
             <option value='HIT'>HIT</option>
@@ -66,6 +48,16 @@
             <option value='אונ תא'>אונ' ת"א</option>
         </select>
       </div>
+      <div class="form-row">
+        <input type="text" name="name" placeholder="שם:"/>
+      </div>
+      <div class="form-row">
+        <input type="tel" name="phone" pattern="^[0-9]+[\- ]*[0-9]+$" placeholder="טלפון:"/>
+      </div>
+      <div class="form-row">
+        <input type="email" name="email" placeholder="דואייל:"/>
+      </div>
+      
       <input type="submit" value="שלח"/>
     </form>
 
