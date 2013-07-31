@@ -40,12 +40,12 @@
     <form name="contact_form" method="post" action="/mail.php">
       <div class="form-row">
       <fieldset>
-        <select name="uni" id=uni class=icon-menu>
-            <option value='בצלאל'>בצלאל</option>
-            <option value='שנקר'>שנקר</option>
+        <select name="uni" id="uni" class="icon-menu">
+            <option value='bezalel'>בצלאל</option>
+            <option value='shenkar'>שנקר</option>
             <option value='HIT'>HIT</option>
-            <option value='טכניון'>טכניון</option>
-            <option value='אונ תא'>אונ' ת"א</option>
+            <option value='technion'>טכניון</option>
+            <option value='TAV-university'>אונ' ת"א</option>
         </select>
       </div>
       <div class="form-row">
