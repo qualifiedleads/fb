@@ -30,14 +30,14 @@
             <!--Post-->
             <div class="post">
 
-<h1> להתקבל בכייף ללימודי עיצוב באקדמיה</h1>
+<h1> מלגה ללימודים בבצלאל</h1>
 <!--Contactform-->
 <div class="contactform">
 <?php if (isset($_GET['contactErr']) && (int)$_GET['contactErr'] === 1): ?>
       <p style="color:red;font-weight:bold">Failed to send email, check your input and try again</p>
     <?php endif; ?>
 <span class="header"><h3>מעוניין ללמוד ב:</h3></span>
-    <form name="contact_form" method="post" action="/mail.php">
+    <form name="contact_form" method="post" action="http://www.concept-academy.co.il/lnd/fb/mail.php">
       <div class="form-row">
       <fieldset>
         <select name="uni" id="uni" class="icon-menu">
@@ -66,8 +66,6 @@
             <img src="http://lnd.commondatastorage.googleapis.com/bez_cert.jpg" alt="image">
             
 <h2>  <strong> המכינה המומלצת להכנת תיקי עבודות!</strong ><br> </h2>
-<h3>   ברוכים הבאים למכינה היחידה בישראל המתחייבת לקבלה שלך לאקדמיה ללימודי עיצוב! </h3>
-                   הלימודים במכינה מהנים, חוויתיים ומכינים אותך ליום הגדול :  
                 <p>
                 <ul>
                  <li>מילגה של 1000 ש' לפונים מעמוד זה!</li>
@@ -80,6 +78,7 @@
                 <li>אבחון והתאמה מקצועית אישית </li>
                 <li><strong>מוכר למענק חיילים משוחררים</strong></li>
               </ul>
+              * כמות המילגות מוגבלת, הבטח את זכאותך
               </p>
 
         		</div>
